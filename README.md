@@ -16,21 +16,17 @@ How do demographic and academic variables (age, engineering background, academic
 
 Does including stress and anxiety as predictors enhance the accuracy of depression prediction?
 
-# Files in the Repository 📁
+### Files in the Repository 📁
 
-Project Data.csv: Contains the raw data used for the analysis.
-### Stan Model Files:
+1. **`Project Data.csv`**: The dataset containing demographic, academic, and mental health data for analysis.  
+2. **`sofi3.R`**: R script for data preparation, running models, and generating visualizations.  
+3. **`Bayesian_Students_Summary.docx`** Summary document of the project's goals and findings.
+4. **`model_q1.stan`**: Bayesian model for analyzing gender's effect on depression.  
+5. **`model_q2.stan`**: Model for stress and anxiety predictions based on demographics and academics.  
+6. **`model_q3_1.stan`**: Depression prediction model without stress/anxiety factors.  
+7. **`model_q3_2.stan`**: Depression prediction model with stress/anxiety factors.  
+8. **`posterior_model.stan`**: Final model for posterior predictive checks and performance evaluation.  
 
-model_q1.stan: Bayesian model for analyzing gender and depression.
-
-model_q2.stan: Model for stress and anxiety with demographic and academic factors.
-
-model_q3_1.stan & model_q3_2.stan: Models comparing depression prediction with and without stress/anxiety factors.
-
-posterior_model.stan: Posterior analysis across all models.
-
-### R Script:
-sofi3.R: R script used for data preprocessing, running Stan models, and visualizations.
 
 # Dashboards Overview 📊
 
