@@ -35,6 +35,8 @@ Key Visualizations and Interpretations:
 1. Gender and Depression:
 Posterior Distribution of the Gender Coefficient:
 
+![Posterior Distribution of the Gender Coefficient](https://github.com/Eliyahu647/Bayesian-Analysis-of-Student-Mental-Health/blob/main/Posterior%20Distribution%20of%20the%20Gender%20Coefficient.png)
+
 Interpretation: Highlights the positive and significant relationship between gender and depression levels. Women report higher depression rates than men, with a posterior mean around 1.75.
 Posterior Predictive Check:
 
@@ -43,13 +45,21 @@ The model aligns closely with the actual data, affirming its predictive capabili
 2. Stress and Anxiety Predictors:
 Posterior Predictive Distribution for Stress:
 
+![Posterior Predictive Distribution for Stress](https://github.com/Eliyahu647/Bayesian-Analysis-of-Student-Mental-Health/blob/main/Posterior%20Predictive%20Distribution%20for%20Stress.png)
+
 Demonstrates the model's accuracy in capturing the distribution of stress across students.
 Posterior Predictive Distribution for Anxiety:
+
+![Posterior Predictive Distribution for Anxiety](https://github.com/Eliyahu647/Bayesian-Analysis-of-Student-Mental-Health/blob/main/Posterior%20Predictive%20Distribution%20for%20Anxiety.png)
 
 Indicates that the model reasonably predicts anxiety levels.
 
 3. Depression Prediction with Enhanced Models:
 Model 1 vs. Model 2 Posterior Predictive Check:
+
+![Posterior Predictive Check for Stress](https://github.com/Eliyahu647/Bayesian-Analysis-of-Student-Mental-Health/blob/main/Posterior%20Predictive%20Check%20for%20Stress.png)
+![Posterior Predictive Check for Depression](https://github.com/Eliyahu647/Bayesian-Analysis-of-Student-Mental-Health/blob/main/Posterior%20Predictive%20Check%20for%20Depression.png)
+
 Model 2 (with stress and anxiety factors) shows better alignment with observed depression levels compared to Model 1, supporting the inclusion of these factors.
 Methodology 🛠️
 Bayesian Modeling:
